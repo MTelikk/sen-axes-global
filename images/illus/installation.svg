@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-label="Illustration : installations techniques du bâtiment">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#081b4a"/><stop offset="1" stop-color="#1a47a8"/></linearGradient></defs>
+<rect width="400" height="220" fill="url(#bg)"/>
+<circle cx="350" cy="30" r="90" fill="#ffffff" opacity=".05"/><circle cx="40" cy="210" r="70" fill="#f7c212" opacity=".12"/>
+<rect x="0" y="196" width="400" height="24" fill="#081b4a" opacity=".55"/>
+
+<path d="M90 110l110-70 110 70z" fill="#f7c212"/><rect x="110" y="110" width="180" height="86" fill="#dfe7fa"/>
+<rect x="130" y="126" width="36" height="32" rx="3" fill="#3a5fc0"/><rect x="234" y="126" width="36" height="32" rx="3" fill="#3a5fc0"/><rect x="184" y="140" width="32" height="56" rx="3" fill="#0d2a6e"/><circle cx="209" cy="170" r="3" fill="#f7c212"/>
+<circle cx="62" cy="96" r="34" fill="#ffffff"/><path d="M68 72l-22 30h14l-6 22 22-32h-14z" fill="#0d2a6e"/>
+<circle cx="338" cy="96" r="34" fill="#ffffff"/><path d="M338 74q16 20 16 31a16 16 0 0 1-32 0q0-11 16-31z" fill="#3a5fc0"/>
+<circle cx="340" cy="170" r="22" fill="#f7c212"/><path d="M350 162a8 8 0 0 1-10 7l-10 11-3-3 11-10a8 8 0 0 1 7-10l-4 5 2 4 4 1z" fill="#0d2a6e"/>
+<circle cx="60" cy="170" r="22" fill="#f7c212"/><path d="M60 156l12 5v8c0 8-5 13-12 16-7-3-12-8-12-16v-8z" fill="#0d2a6e"/>
+
+</svg>

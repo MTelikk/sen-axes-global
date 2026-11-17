@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-label="Illustration : boutique de matériels et équipements">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#081b4a"/><stop offset="1" stop-color="#1a47a8"/></linearGradient></defs>
+<rect width="400" height="220" fill="url(#bg)"/>
+<circle cx="350" cy="30" r="90" fill="#ffffff" opacity=".05"/><circle cx="40" cy="210" r="70" fill="#f7c212" opacity=".12"/>
+<rect x="0" y="196" width="400" height="24" fill="#081b4a" opacity=".55"/>
+
+<rect x="78" y="70" width="244" height="126" fill="#dfe7fa"/>
+<rect x="70" y="44" width="259" height="20" rx="4" fill="#0d2a6e"/><text x="200" y="59" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="13" fill="#f7c212">SAG BOUTIQUE</text>
+<path d="M70 62h37v26a18.500 18.500 0 0 1-37 0z" fill="#f7c212"/><path d="M107 62h37v26a18.500 18.500 0 0 1-37 0z" fill="#ffffff"/><path d="M144 62h37v26a18.500 18.500 0 0 1-37 0z" fill="#f7c212"/><path d="M181 62h37v26a18.500 18.500 0 0 1-37 0z" fill="#ffffff"/><path d="M218 62h37v26a18.500 18.500 0 0 1-37 0z" fill="#f7c212"/><path d="M255 62h37v26a18.500 18.500 0 0 1-37 0z" fill="#ffffff"/><path d="M292 62h37v26a18.500 18.500 0 0 1-37 0z" fill="#f7c212"/>
+<rect x="96" y="112" width="128" height="62" rx="4" fill="#0d2a6e"/>
+<rect x="106" y="122" width="24" height="24" rx="4" fill="#ffffff"/><circle cx="118" cy="134" r="6" fill="#3a5fc0"/>
+<rect x="138" y="122" width="24" height="24" rx="4" fill="#ffffff"/><rect x="146" y="127" width="8" height="14" rx="2" fill="#f7c212"/>
+<path d="M186 146v-14q0-10 10-10h4" fill="none" stroke="#9fb3e6" stroke-width="6" stroke-linecap="round"/><rect x="180" y="144" width="12" height="6" fill="#f7c212"/>
+<path d="M104 160h112" stroke="#9fb3e6" stroke-width="3"/><rect x="110" y="163" width="20" height="8" fill="#f7c212"/><rect x="136" y="163" width="30" height="8" fill="#ffffff"/><rect x="172" y="163" width="20" height="8" fill="#f7c212"/>
+<rect x="246" y="112" width="56" height="84" rx="4" fill="#0d2a6e"/><rect x="254" y="120" width="40" height="40" rx="3" fill="#3a5fc0"/><circle cx="256" cy="158" r="0" /><rect x="290" y="166" width="5" height="12" rx="2" fill="#f7c212"/>
+<rect x="336" y="170" width="30" height="26" fill="#f7c212"/><path d="M336 180h30M351 170v26" stroke="#0d2a6e" stroke-width="2"/>
+<rect x="36" y="162" width="34" height="34" fill="#ffffff"/><path d="M36 176h34M53 162v34" stroke="#9fb3e6" stroke-width="2"/>
+
+</svg>

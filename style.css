@@ -111,6 +111,8 @@ p { margin: 0 0 1em; }
   width: 52px; height: 52px; border-radius: 50%; background: var(--blue); color: var(--yellow);
   font-size: 1.6rem; font-weight: 800; display: grid; place-items: center; margin-bottom: 16px;
 }
+.axe { overflow: hidden; }
+.axe-img { width: calc(100% + 52px); max-width: none; margin: -34px -26px 22px; }
 .axe p { color: var(--muted); }
 .axe-link { margin-top: auto; font-weight: 700; color: var(--blue); text-decoration: none; }
 .axe-link:hover { color: var(--yellow-dark); }

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-label="Illustration : lavabo, robinet et tuyauterie">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#081b4a"/><stop offset="1" stop-color="#1a47a8"/></linearGradient></defs>
+<rect width="400" height="220" fill="url(#bg)"/>
+<circle cx="350" cy="30" r="90" fill="#ffffff" opacity=".05"/><circle cx="40" cy="210" r="70" fill="#f7c212" opacity=".12"/>
+<rect x="0" y="196" width="400" height="24" fill="#081b4a" opacity=".55"/>
+
+<path d="M40 70h70v0" stroke="#9fb3e6" stroke-width="14" stroke-linecap="round"/><path d="M110 70v126" stroke="#9fb3e6" stroke-width="14"/>
+<rect x="100" y="96" width="20" height="10" rx="2" fill="#f7c212"/><rect x="100" y="150" width="20" height="10" rx="2" fill="#f7c212"/>
+<circle cx="64" cy="70" r="13" fill="#f7c212"/><path d="M64 57v26M51 70h26" stroke="#0d2a6e" stroke-width="4"/>
+<path d="M214 118V84q0-30 30-30h14q26 0 26 26v8" fill="none" stroke="#dfe7fa" stroke-width="14" stroke-linecap="round"/>
+<rect x="200" y="112" width="28" height="14" rx="4" fill="#ffffff"/><rect x="238" y="40" width="34" height="10" rx="5" fill="#f7c212"/><rect x="251" y="46" width="8" height="12" fill="#f7c212"/>
+<path d="M284 104q10 14 10 21a10 10 0 0 1-20 0q0-7 10-21z" fill="#6fc3ff"/>
+<path d="M170 126h200q0 44-44 44h-112q-44 0-44-44z" fill="#ffffff"/><rect x="162" y="120" width="216" height="12" rx="6" fill="#dfe7fa"/>
+<rect x="258" y="170" width="24" height="26" fill="#9fb3e6"/><rect x="252" y="178" width="36" height="8" rx="2" fill="#f7c212"/>
+
+</svg>
