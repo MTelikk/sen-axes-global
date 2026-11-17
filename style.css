@@ -24,6 +24,7 @@ body {
   font-size: 17px;
 }
 img { max-width: 100%; height: auto; display: block; }
+[hidden] { display: none !important; }
 a { color: inherit; }
 h1, h2, h3, h4 { line-height: 1.2; margin: 0 0 .5em; color: var(--blue); }
 h2 { font-size: clamp(1.7rem, 4vw, 2.4rem); }
@@ -218,11 +219,30 @@ legend { font-weight: 600; font-size: .95rem; padding: 0 6px; }
 .contact-form label.check input { width: 18px; height: 18px; margin: 0; flex: none; accent-color: var(--blue); }
 .map { width: 100%; height: 100%; min-height: 360px; border: 0; border-radius: var(--radius); box-shadow: var(--shadow); }
 
+.guarantees { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 36px; }
+.guarantees div { background: var(--blue); color: var(--white); border-radius: var(--radius); padding: 22px 12px; text-align: center; }
+.guarantees b { display: block; color: var(--yellow); font-size: 1.9rem; line-height: 1.1; }
+.guarantees span { font-weight: 600; }
+.products { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 30px; }
+.products .pack-body { padding: 14px 16px; }
+.products h3 { font-size: 1rem; margin: 0; text-align: center; }
+.axe .dur { margin: 0; font-weight: 700; color: var(--blue); }
+.table-wrap { overflow-x: auto; border-radius: var(--radius); box-shadow: var(--shadow); }
+.tarifs { width: 100%; border-collapse: collapse; background: var(--white); min-width: 620px; }
+.tarifs th, .tarifs td { padding: 12px 14px; text-align: center; border-bottom: 1px solid #e3e8f3; }
+.tarifs thead th { background: var(--blue); color: var(--white); font-size: .9rem; text-transform: uppercase; letter-spacing: .04em; }
+.tarifs tbody th { color: var(--blue); background: var(--grey); text-align: left; }
+.perks { margin: 30px 0 20px; }
+.perks span { background: var(--yellow); color: var(--blue-dark); }
+.link-btn { display: inline; font: inherit; font-weight: 700; color: var(--blue); text-decoration: underline; cursor: pointer; }
+.map-link { margin: 24px 0 0; }
+
 @media (max-width: 1100px) {
   .nav { gap: 1.1em; }
   .nav a { font-size: .9rem; }
 }
 @media (max-width: 960px) {
+  .products, .guarantees { grid-template-columns: 1fr 1fr; }
   .services, .steps, .timeline, .timeline.two-steps, .devis { grid-template-columns: 1fr; }
   .steps { max-width: 420px; margin-left: auto; margin-right: auto; }
   .axes, .packs { grid-template-columns: 1fr; max-width: 560px; margin: 0 auto; }
