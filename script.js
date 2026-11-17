@@ -31,6 +31,24 @@ document.getElementById("devisForm").addEventListener("submit", (e) => {
   window.open(`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(lignes.join("\n"))}`, "_blank");
 });
 
+// Formulaire de recrutement : ouvre WhatsApp avec la candidature déjà rédigée
+document.getElementById("recrutForm").addEventListener("submit", (e) => {
+  e.preventDefault();
+  const val = (id) => document.getElementById(id).value.trim();
+  const lignes = [
+    "Bonjour SAG, je souhaite déposer ma candidature.",
+    "",
+    `Nom : ${val("rNom")}`,
+    `Téléphone : ${val("rTel")}`,
+    `Domaine : ${val("rDomaine")}`,
+    `Expérience : ${val("rExp")} an(s)`,
+    `Diplôme / attestation : ${val("rDiplome")}`,
+  ];
+  if (val("rMsg")) lignes.push("", `Parcours : ${val("rMsg")}`);
+  lignes.push("", "Je joins mes documents (CV, diplôme ou attestation) à la suite de ce message.");
+  window.open(`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(lignes.join("\n"))}`, "_blank");
+});
+
 // Agrandissement des images des packs
 const lightbox = document.getElementById("lightbox");
 const lbImg = lightbox.querySelector("img");

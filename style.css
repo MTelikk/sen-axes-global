@@ -190,6 +190,8 @@ p { margin: 0 0 1em; }
 .sub-title.light { color: var(--white); }
 .services { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 .service { background: var(--white); border-radius: var(--radius); padding: 26px; box-shadow: var(--shadow); border-left: 5px solid var(--yellow); }
+.ico { width: 44px; height: 44px; padding: 10px; border-radius: 12px; background: var(--blue); fill: var(--yellow); margin-bottom: 14px; }
+#recrutement .contact-form { box-shadow: var(--shadow); }
 .service p { color: var(--muted); margin: 0; }
 .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin: 44px 0 36px; }
 .steps div { display: flex; gap: 12px; align-items: flex-start; }
