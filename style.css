@@ -179,6 +179,43 @@ p { margin: 0 0 1em; }
 }
 .wa-float svg { width: 32px; height: 32px; fill: #fff; }
 
+/* Catalogue de la boutique */
+.shop-search { max-width: 560px; margin: 0 auto 28px; }
+.shop-search input { width: 100%; padding: 14px 20px; border-radius: 999px; border: 2px solid var(--yellow); font: inherit; }
+.shop-cats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+.shop-cat { background: var(--white); border: 3px solid transparent; border-radius: var(--radius); overflow: hidden; padding: 0; cursor: pointer; font: inherit; text-align: left; color: var(--text); box-shadow: 0 14px 40px rgba(0,0,0,.3); transition: transform .15s; }
+.shop-cat:hover { transform: translateY(-3px); }
+.shop-cat.active { border-color: var(--yellow); }
+.shop-cat img { width: 100%; aspect-ratio: 3/2; object-fit: cover; object-position: top; }
+.shop-cat div { padding: 16px 18px 18px; }
+.shop-cat b { display: block; color: var(--blue); font-size: 1.15rem; }
+.shop-cat span { color: var(--muted); font-size: .9rem; }
+.shop-cat em { display: inline-block; margin-top: 10px; font-style: normal; font-weight: 700; color: var(--blue); }
+.catalogue { background: var(--white); color: var(--text); border-radius: var(--radius); padding: 24px; margin-top: 26px; scroll-margin-top: 90px; }
+.cat-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 14px; }
+.cat-head h3 { margin: 0; font-size: 1.5rem; }
+.cat-close { background: none; border: 1.5px solid var(--blue); color: var(--blue); border-radius: 999px; padding: .4em 1em; font: inherit; font-weight: 700; cursor: pointer; white-space: nowrap; }
+.cat-filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
+.cat-filters button { border: 1.5px solid #cfd6e6; background: var(--white); color: var(--blue); border-radius: 999px; padding: .45em 1em; font: inherit; font-size: .9rem; font-weight: 600; cursor: pointer; }
+.cat-filters button.active { background: var(--blue); border-color: var(--blue); color: var(--white); }
+.cat-sub { margin: 26px 0 12px; font-size: 1.1rem; border-left: 5px solid var(--yellow); padding-left: 10px; }
+.cat-sub small { color: var(--muted); font-weight: 500; }
+.prod-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.prod { border: 1px solid #e3e8f3; border-radius: 12px; padding: 12px; display: flex; flex-direction: column; gap: 6px; }
+.prod-thumb { aspect-ratio: 4/3; border-radius: 8px; background: var(--grey); display: grid; place-items: center; overflow: hidden; }
+.prod-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.prod-thumb svg { width: 40%; height: 40%; fill: #b9c5e6; }
+.prod-name { font-weight: 700; color: var(--blue); line-height: 1.25; }
+.prod-desc, .prod-brand { font-size: .85rem; color: var(--muted); margin: 0; }
+.prod-price { font-weight: 800; color: var(--red); margin-top: auto; }
+.prod-price.ask { color: var(--muted); font-weight: 600; font-size: .9rem; }
+.prod-gros { font-size: .8rem; color: var(--blue); margin: 0; }
+.prod-stock { align-self: flex-start; font-size: .75rem; font-weight: 700; padding: .15em .7em; border-radius: 999px; background: #e3f6e8; color: #17703a; }
+.prod-stock.cmd { background: #fff3cd; color: #7a5a00; }
+.prod-stock.out { background: #fde2e2; color: #a01818; }
+.prod .btn { padding: .5em .8em; font-size: .88rem; }
+.cat-note, .cat-empty { color: var(--muted); font-size: .9rem; margin: 22px 0 0; }
+
 /* Panier */
 .on-demand { text-align: center; color: var(--muted); font-size: .9rem; margin: 6px 0 12px; }
 .products .btn { padding: .6em 1em; font-size: .92rem; }
@@ -274,7 +311,10 @@ legend { font-weight: 600; font-size: .95rem; padding: 0 6px; }
   .nav a { font-size: .9rem; }
 }
 @media (max-width: 960px) {
-  .products, .guarantees { grid-template-columns: 1fr 1fr; }
+  .products, .guarantees, .prod-grid { grid-template-columns: 1fr 1fr; }
+  .shop-cats { grid-template-columns: 1fr; max-width: 480px; margin: 0 auto; }
+  .prod-grid { gap: 10px; }
+  .catalogue { padding: 16px; }
   .services, .steps, .timeline, .timeline.two-steps, .devis { grid-template-columns: 1fr; }
   .steps { max-width: 420px; margin-left: auto; margin-right: auto; }
   .axes, .packs { grid-template-columns: 1fr; max-width: 560px; margin: 0 auto; }

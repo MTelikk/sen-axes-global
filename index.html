@@ -121,14 +121,20 @@
     <p class="eyebrow center">Axe 2 · Vente et commercialisation</p>
     <h2 class="center">Notre boutique</h2>
     <p class="lead center">Du matériel et des équipements pour les professionnels comme pour les particuliers.</p>
-    <div class="cats">
-      <span>Matériels électriques</span>
-      <span>Matériels de plomberie</span>
-      <span>Équipements sanitaires</span>
-      <span>Robinetterie et accessoires sanitaires</span>
-      <span>Accessoires de salle de bain</span>
-      <span>Électroménagers</span>
-      <span>Fournitures pour installations</span>
+    <div class="shop-search">
+      <input type="search" id="shopSearch" placeholder="Rechercher un produit : câble, robinet, membrane…" aria-label="Rechercher un produit">
+    </div>
+    <div class="shop-cats" id="shopCats"></div>
+
+    <div class="catalogue" id="catalogue" hidden>
+      <div class="cat-head">
+        <h3 id="catTitle"></h3>
+        <button type="button" class="cat-close" id="catClose">Fermer ×</button>
+      </div>
+      <div class="cat-filters" id="catFilters"></div>
+      <p class="cat-empty" id="catEmpty" hidden>Aucun produit ne correspond à votre recherche. Écrivez-nous sur WhatsApp, nous l'avons peut-être en stock.</p>
+      <div id="catList"></div>
+      <p class="cat-note">Prix « sur demande » : ajoutez l'article au panier, nous vous envoyons le prix avec votre devis. Tarifs spéciaux pour les achats en gros et les revendeurs.</p>
     </div>
 
     <h3 class="center sub-title light" id="prises">Interrupteurs et prises électriques</h3>
@@ -519,6 +525,7 @@
           <option>Retrait à la boutique (Cité Apix)</option>
         </select>
       </label>
+      <label class="check"><input type="checkbox" id="cGros"> Je suis revendeur ou j'achète en gros</label>
       <label id="cAdrWrap">Adresse de livraison
         <input type="text" id="cAdr" placeholder="Quartier, ville">
       </label>
@@ -533,6 +540,7 @@
   <img src="" alt="">
 </div>
 
+<script src="produits.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
